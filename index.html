@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It's All About Me!</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <header>
         <h1>Jillian Burquez</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
     </header>
-
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <main>
-        <section class="About">
-            <div><img src="./images/Profilepic.png" alt="Me!">
+        <section id="about" class="about">
+        <div><img src="./images/Profilepic.png" id="Me!">
             </div>
             <h2>About Me!</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quae, autem similique excepturi quaerat ut nobis sit
@@ -26,24 +25,29 @@
                  amet, consectetur adipisicing elit. Minus quae, autem similique excepturi quaerat ut nobis sit
                  temporibus impedit aperiam reprehenderit! Unde minus molestias itaque similique earum maiores dolore nihil?</p>
                 </section> 
-        <section class="Portfolio">
-            <h2>My Work!</h2>
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio!</h2>
             <div><img src="./images/dbzbackground.jpg" alt="dbzbackground">
             </div>
+            <h3>Goku</h3>
             <div><img src="./images/KamihouseBG.png" alt="KamihouseBG">
             </div>
+            <h3>Master Roshi's House</h3>
             <div><img src="./images/groupdnz.jpeg" alt="groupdnz">
             </div>
+            <h3>Goku Gang</h3>
         </section> 
     </main>
 </body>
-
 <footer>
-    <section class="Contact">
-        <h2>Contact Me!</h2>
+    <section id="contact" class="contact">
+        
+        <nav>
         <a href="#">LinkedIn</a>
         <a href="#">GitHub</a>
         <a href="#">Email</a>
+        </nav>
+    
     </section> 
 </footer>
 
